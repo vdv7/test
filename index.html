@@ -1,5 +1,35 @@
 <html>
-    <body>
-        hello world
-    </body>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="flexrow">
+      <div>
+        Test fetch
+        <div class="flexcol w350">
+          <label for="urlInput">URL</label>
+          <input id="urlInput" value="https://echo.zuplo.io/">
+          <label for="urlParamsInput">URL key:value pairs</label>
+          <small>(one per line)</small>
+          <textarea id="urlParamsInput"></textarea>
+          <label for="bodyInput">In-body key:value pairs</label>
+          <small>(one per line)</small>
+          <textarea id="bodyInput"></textarea>
+        </div>
+        <div>
+          <button id="getBtn">GET</button>
+          <button id="postBtn">POST</button>
+          <button id="patchBtn">PATCH</button>
+          <button id="putBtn">PUT</button>
+          <button id="deleteBtn">DELETE</button>
+        </div>
+        <div id="response"></div>
+      </div>
+      <div>
+        Output
+        <div id="output"></div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
 </html>

@@ -1,0 +1,41 @@
+* {
+  /* padding: 0.5em; */
+  margin: 0.2em;
+  font-family: monospace;
+  font-size: 14pt;
+}
+
+small {
+  margin: 0px;
+  margin-left: 1em;
+  font-size: 80%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: #333;
+  color: #ddd;
+  font-family: monospace;
+  font-size: 14pt;
+}
+
+.w350 {
+  width: 350px;
+}
+
+.flexcol {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexrow {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+#output, #response {
+  border: solid 1px gray;
+  white-space: pre-wrap;
+  font-family: monospace;
+}
